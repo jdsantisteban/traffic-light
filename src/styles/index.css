@@ -10,3 +10,52 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light {
+    background-color: black;
+    width: 100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .red-glow {
+    box-shadow: 0px 0px 115px 57px rgba(255, 0, 0, 0.9);
+    -webkit-box-shadow: 0px 0px 115px 57px rgba(255, 0, 0, 0.9);
+    -moz-box-shadow: 0px 0px 115px 57px rgba(255, 0, 0, 0.9);
+  }
+  
+  .yellow-glow {
+    box-shadow: 0px 0px 115px 57px rgba(255, 255, 0, 0.9);
+    -webkit-box-shadow: 0px 0px 115px 57px rgba(255, 255, 0, 0.9);
+    -moz-box-shadow: 0px 0px 115px 57px rgba(255, 255, 0, 0.9);
+  }
+  
+  .green-glow {
+    box-shadow: 0px 0px 115px 57px rgba(0, 128, 0, 0.9);
+    -webkit-box-shadow: 0px 0px 115px 57px rgba(0, 128, 0, 0.9);
+    -moz-box-shadow: 0px 0px 115px 57px rgba(0, 128, 0, 0.9);
+  }
+  
